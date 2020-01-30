@@ -1,0 +1,3 @@
+rootProject.name = 'lunchgo'
+
+include 'lunchgo-api'

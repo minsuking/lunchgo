@@ -12,3 +12,5 @@
 ### business knowledge
 ### Performance
 ### feelings and learning points
+> 스프링부트 개발할때 항상 maven으로만 개발했었는데, gradle 로 개발해보는 신선함.<br>
+> 공부도하고 사이드프로젝트도 하고

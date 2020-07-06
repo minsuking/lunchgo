@@ -5,18 +5,12 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-public class RestaurantTests {
+public class RestaurantTest {
 
     @Test
     public void creation(){
         Restaurant restaurant = new Restaurant("Bob zip");
         assertThat(restaurant.getName(), is("Bob zip"));
-    }
-    @Test
-    public void information(){
-        Restaurant restaurant = new Restaurant("Bob zip","Seoul");
-
-        assertThat(restaurant.getInfomation(), is("Bob zip in Seoul"));
     }
 
 }
